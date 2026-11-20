@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paddle Barn · Paddle surf y surf en la Barceloneta</title>
+  <meta name="description" content="Alquiler de tablas, clases de paddle surf y surf, salidas guiadas al amanecer y atardecer en la Barceloneta, Barcelona. Abierto todos los días de 5:30 a 20:00.">
+  <meta property="og:title" content="Paddle Barn · Barceloneta">
+  <meta property="og:description" content="Paddle surf, surf y salidas al amanecer en Barcelona.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1730799305374-03769d19590e?w=1200&q=80">
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsActivityLocation",
+    "name": "Paddle Barn",
+    "telephone": "+34651634586",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Carrer de Felícia Fuster i Viladecans, 67",
+      "addressLocality": "Barcelona",
+      "postalCode": "08003",
+      "addressCountry": "ES"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "05:30",
+      "closes": "20:00"
+    }],
+    "paymentAccepted": "Credit Card, Debit Card, NFC",
+    "sameAs": ["https://www.instagram.com/paddle_barn/"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <a href="#inicio" class="logo" aria-label="Paddle Barn">
+      <img src="img/logo.png" alt="" width="46" height="46">
+      <span>PADDLE<b>BARN</b></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#nosotros" data-i18n="nav.about">Nosotros</a>
+      <a href="#actividades" data-i18n="nav.activities">Actividades</a>
+      <a href="#spots" data-i18n="nav.spots">Spots</a>
+      <a href="#tablas" data-i18n="nav.boards">Tablas</a>
+      <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn-small" data-wa href="https://wa.me/34651634586" target="_blank" rel="noopener" data-i18n="cta.book">Reservar</a>
+      <button class="burger" id="burger" type="button" aria-label="Menú" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <!-- Fotos provisionales de Unsplash: sustituir por fotos propias en img/ -->
+    <div class="hero-slides">
+      <div class="slide is-active" style="--img:url('https://images.unsplash.com/photo-1730799305374-03769d19590e?w=1920&q=80')"></div>
+      <div class="slide" style="--img:url('https://images.unsplash.com/photo-1509914398892-963f53e6e2f1?w=1920&q=80')"></div>
+      <div class="slide" style="--img:url('https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1920&q=80')"></div>
+      <div class="slide" style="--img:url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&q=80')"></div>
+    </div>
+
+    <ul class="social">
+      <li><a href="https://www.instagram.com/paddle_barn/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a></li>
+      <li><a data-wa href="https://wa.me/34651634586" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3Z"/></svg></a></li>
+      <li><a href="tel:+34651634586" aria-label="Teléfono">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></a></li>
+    </ul>
+
+    <div class="hero-content">
+      <h1 class="hero-title" data-split data-i18n="hero.title">Rema en Barcelona</h1>
+      <p class="hero-sub" data-i18n="hero.sub">Paddle surf y surf a dos minutos del mar. Abrimos a las 5:30 para que veas salir el sol desde el agua.</p>
+      <div class="hero-ctas">
+        <a class="btn" data-wa href="https://wa.me/34651634586" target="_blank" rel="noopener" data-i18n="cta.bookNow">Reserva tu sesión</a>
+        <a class="scroll-down" href="#nosotros" aria-label="Bajar">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-bar">
+      <div class="progress"><span id="progress"></span></div>
+      <span class="counter" id="counter">01</span>
+      <div class="thumbs">
+        <button type="button" class="is-active" style="background-image:url('https://images.unsplash.com/photo-1730799305374-03769d19590e?w=240&q=60')" aria-label="1"><i>01</i></button>
+        <button type="button" style="background-image:url('https://images.unsplash.com/photo-1509914398892-963f53e6e2f1?w=240&q=60')" aria-label="2"><i>02</i></button>
+        <button type="button" style="background-image:url('https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=240&q=60')" aria-label="3"><i>03</i></button>
+        <button type="button" style="background-image:url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=240&q=60')" aria-label="4"><i>04</i></button>
+      </div>
+    </div>
+
+    <svg class="waves" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path class="wave w1" d="M0 60 C 240 110 480 10 720 60 S 1200 110 1440 60 V120 H0Z"/>
+      <path class="wave w2" d="M0 80 C 240 40 480 120 720 80 S 1200 40 1440 80 V120 H0Z"/>
+    </svg>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="section about" id="nosotros">
+    <span class="ghost" aria-hidden="true">ABOUT US</span>
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2 class="title reveal" data-i18n="about.title">Sobre nosotros</h2>
+        <div class="feature reveal" style="--i:1">
+          <h3 data-i18n="about.f1.t">Equipo</h3>
+          <p data-i18n="about.f1.d">Instructores titulados que viven el mar cada día y te enseñan a tu ritmo, tanto si es tu primera vez como si ya remas.</p>
+        </div>
+        <div class="feature reveal" style="--i:2">
+          <h3 data-i18n="about.f2.t">Material</h3>
+          <p data-i18n="about.f2.d">Tablas de paddle surf y surf, remos, chalecos y neoprenos incluidos. Tú solo trae ganas y bañador.</p>
+        </div>
+        <div class="feature reveal" style="--i:3">
+          <h3 data-i18n="about.f3.t">A dos pasos del mar</h3>
+          <p data-i18n="about.f3.d">Estamos en la Barceloneta, a dos minutos de la playa. Sales del local y estás en el agua.</p>
+        </div>
+        <a class="link reveal" style="--i:4" href="#actividades" data-i18n="cta.more">Ver actividades</a>
+      </div>
+      <div class="about-media reveal" style="--i:2">
+        <img class="about-main" src="https://images.unsplash.com/photo-1537519646099-335112f03225?w=1000&q=75" alt="Tablas de surf apoyadas en la pared del local" loading="lazy">
+        <div class="about-thumbs">
+          <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=300&q=60" alt="" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1455729552865-3658a5d39692?w=300&q=60" alt="" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=300&q=60" alt="" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1530870110042-98b2cb110834?w=300&q=60" alt="" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTIVIDADES -->
+  <section class="section activities" id="actividades">
+    <span class="ghost" aria-hidden="true">ACTIVITIES</span>
+    <div class="container">
+      <h2 class="title reveal" data-i18n="act.title">Actividades</h2>
+      <div class="cards">
+        <article class="card reveal" style="--i:0">
+          <img src="https://images.unsplash.com/photo-1531722569936-825d3dd91b15?w=700&q=70" alt="" loading="lazy">
+          <div class="card-body">
+            <h3 data-i18n="act.rent.t">Alquiler de tablas</h3>
+            <p data-i18n="act.rent.d">Paddle surf o surf por horas. Coge la tabla y sal a remar cuando quieras.</p>
+            <a class="link" data-wa="act.rent.t" href="https://wa.me/34651634586" target="_blank" rel="noopener" data-i18n="cta.wa">Reservar por WhatsApp</a>
+          </div>
+        </article>
+        <article class="card reveal" style="--i:1">
+          <img src="https://images.unsplash.com/photo-1638283561964-c7176626086a?w=700&q=70" alt="" loading="lazy">
+          <div class="card-body">
+            <h3 data-i18n="act.sup.t">Clases de paddle surf</h3>
+            <p data-i18n="act.sup.d">Aprende equilibrio, técnica de remada y seguridad en el mar con un instructor.</p>
+            <a class="link" data-wa="act.sup.t" href="https://wa.me/34651634586" target="_blank" rel="noopener" data-i18n="cta.wa">Reservar por WhatsApp</a>
+          </div>
+        </article>
+        <article class="card reveal" style="--i:2">
+          <img src="https://images.unsplash.com/photo-1730761970652-2e45c1ab3fdf?w=700&q=70" alt="" loading="lazy">
+          <div class="card-body">
+            <h3 data-i18n="act.surf.t">Clases de surf</h3>
+            <p data-i18n="act.surf.d">Desde tu primera ola hasta mejorar la maniobra. Grupos reducidos.</p>
+            <a class="link" data-wa="act.surf.t" href="https://wa.me/34651634586" target="_blank" rel="noopener" data-i18n="cta.wa">Reservar por WhatsApp</a>
+          </div>
+        </article>
+        <article class="card reveal" style="--i:3">
+          <img src="https://images.unsplash.com/photo-1509914398892-963f53e6e2f1?w=700&q=70" alt="" loading="lazy">
+          <div class="card-body">
+            <h3 data-i18n="act.guided.t">Salidas al amanecer y atardecer</h3>
+            <p data-i18n="act.guided.d">Rutas guiadas por la costa con la mejor luz del día. La experiencia más pedida.</p>
+            <a class="link" data-wa="act.guided.t" href="https://wa.me/34651634586" target="_blank" rel="noopener" data-i18n="cta.wa">Reservar por WhatsApp</a>
+          </div>
+        </article>
+        <article class="card reveal" style="--i:4">
+          <img src="https://images.unsplash.com/photo-1530870110042-98b2cb110834?w=700&q=70" alt="" loading="lazy">
+          <div class="card-body">
+            <h3 data-i18n="act.group.t">Actividades en grupo</h3>
+            <p data-i18n="act.group.d">Cumpleaños, despedidas, empresas o amigos. Preparamos la salida a vuestra medida.</p>
+            <a class="link" data-wa="act.group.t" href="https://wa.me/34651634586" target="_blank" rel="noopener" data-i18n="cta.wa">Reservar por WhatsApp</a>
+          </div>
+        </article>
+        <article class="card reveal" style="--i:5">
+          <img src="https://images.unsplash.com/photo-1537519646099-335112f03225?w=700&q=70" alt="" loading="lazy">
+          <div class="card-body">
+            <h3 data-i18n="act.storage.t">Guardado y reparación</h3>
+            <p data-i18n="act.storage.d">Deja tu tabla con nosotros junto a la playa y olvídate de cargarla. También la reparamos.</p>
+            <a class="link" data-wa="act.storage.t" href="https://wa.me/34651634586" target="_blank" rel="noopener" data-i18n="cta.ask">Preguntar por WhatsApp</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPOTS -->
+  <section class="section spots" id="spots">
+    <span class="ghost" aria-hidden="true">SURF SPOTS</span>
+    <div class="container">
+      <h2 class="title reveal" data-i18n="spots.title">Dónde remamos</h2>
+      <div class="carousel reveal" style="--i:1">
+        <button class="arrow prev" type="button" aria-label="Anterior">&larr;</button>
+        <div class="track" id="track">
+          <figure class="spot"><img src="img/barceloneta.webp" alt="Surfista en la playa de la Barceloneta con el Hotel Vela al fondo" loading="lazy"><figcaption>Barceloneta</figcaption></figure>
+          <figure class="spot"><img src="img/bogatell.webp" alt="Paseo marítimo con palmeras junto al mar" loading="lazy"><figcaption>Bogatell</figcaption></figure>
+          <figure class="spot"><img src="img/port-olimpic.webp" alt="Foil en el Port Olímpic entre veleros" loading="lazy"><figcaption>Port Olímpic</figcaption></figure>
+          <figure class="spot"><img src="https://images.unsplash.com/photo-1791449810779-84b097e6cb23?w=700&q=70" alt="Amanecer sobre el mar desde la playa de la Barceloneta" loading="lazy"><figcaption data-i18n="spots.sunrise">Amanecer en el mar</figcaption></figure>
+          <figure class="spot"><img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=700&q=70" alt="" loading="lazy"><figcaption>Nova Icària</figcaption></figure>
+        </div>
+        <button class="arrow next" type="button" aria-label="Siguiente">&rarr;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TABLAS -->
+  <section class="boards" id="tablas">
+    <span class="ghost ghost-light" aria-hidden="true">BOARDS</span>
+    <div class="container">
+      <h2 class="title title-light reveal" data-i18n="boards.title">Nuestras tablas</h2>
+      <div class="boards-grid">
+        <div class="board reveal" style="--i:0">
+          <span class="num">01</span>
+          <svg viewBox="0 0 120 360" aria-hidden="true"><path d="M60 6C95 40 108 150 104 250 100 320 82 354 60 354S20 320 16 250C12 150 25 40 60 6Z" fill="#f4efe6"/><path d="M60 6V354" stroke="#0e5a63" stroke-width="3"/><circle cx="60" cy="210" r="12" fill="#0e5a63"/></svg>
+          <h3 data-i18n="boards.b1.t">SUP hinchable</h3>
+          <p data-i18n="boards.b1.d">Estable y ligera. Ideal para empezar y para salidas largas.</p>
+        </div>
+        <div class="board reveal" style="--i:1">
+          <span class="num">02</span>
+          <svg viewBox="0 0 120 360" aria-hidden="true"><path d="M60 6C92 50 104 150 102 240 100 320 84 354 60 354S20 320 18 240C16 150 28 50 60 6Z" fill="#ff7a3d"/><path d="M60 40V340" stroke="#fff" stroke-width="2" opacity=".6"/><rect x="40" y="170" width="40" height="70" rx="6" fill="#0b2a30" opacity=".35"/></svg>
+          <h3 data-i18n="boards.b2.t">SUP rígida</h3>
+          <p data-i18n="boards.b2.d">Más rápida y precisa. Para quien ya rema y quiere deslizar.</p>
+        </div>
+        <div class="board reveal" style="--i:2">
+          <span class="num">03</span>
+          <svg viewBox="0 0 120 360" aria-hidden="true"><path d="M60 30C86 70 94 150 92 230 90 300 78 340 60 344S30 300 28 230C26 150 34 70 60 30Z" fill="#fff"/><path d="M60 30V344" stroke="#0e5a63" stroke-width="2"/><path d="M50 320 60 338 70 320" fill="none" stroke="#0e5a63" stroke-width="3"/></svg>
+          <h3 data-i18n="boards.b3.t">Tabla de surf</h3>
+          <p data-i18n="boards.b3.d">Softboards para aprender y tablas de nivel para los días con olas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AMANECER -->
+  <section class="sunrise" id="amanecer">
+    <span class="ghost" aria-hidden="true">SUNRISE</span>
+    <div class="sunrise-text">
+      <h2 class="title reveal" data-i18n="sunrise.title">Sesión al amanecer</h2>
+      <p class="reveal" style="--i:1" data-i18n="sunrise.d">Abrimos a las 5:30 todos los días. Mar en calma, playa vacía y el sol saliendo por el horizonte mientras remas. No hay mejor forma de empezar el día en Barcelona.</p>
+      <a class="btn reveal" style="--i:2" data-wa="act.guided.t" href="https://wa.me/34651634586" target="_blank" rel="noopener" data-i18n="cta.sunrise">Quiero ver el amanecer</a>
+    </div>
+    <div class="sunrise-media reveal" style="--i:1">
+      <img src="https://images.unsplash.com/photo-1509914398892-963f53e6e2f1?w=1200&q=75" alt="Persona en el mar al amanecer" loading="lazy">
+    </div>
+  </section>
+
+  <!-- INFO -->
+  <section class="section info">
+    <div class="container info-grid">
+      <div class="info-item reveal">
+        <h3 data-i18n="info.hours.t">Horario</h3>
+        <p data-i18n="info.hours.d">Todos los días, de 5:30 a 20:00</p>
+        <span class="status" id="status"></span>
+      </div>
+      <div class="info-item reveal" style="--i:1">
+        <h3 data-i18n="info.access.t">Accesibilidad</h3>
+        <p data-i18n="info.access.d">Baño accesible para sillas de ruedas y baño de género neutro.</p>
+      </div>
+      <div class="info-item reveal" style="--i:2">
+        <h3 data-i18n="info.pay.t">Pagos</h3>
+        <p data-i18n="info.pay.d">Tarjeta de crédito, débito y pago móvil NFC.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contacto">
+    <div class="container footer-grid">
+      <div>
+        <h3 data-i18n="foot.follow">Síguenos</h3>
+        <p><a href="https://www.instagram.com/paddle_barn/" target="_blank" rel="noopener">@paddle_barn</a></p>
+        <p class="small" data-i18n="foot.followD">Fotos de cada salida, condiciones del mar y novedades.</p>
+      </div>
+      <div>
+        <h3 data-i18n="foot.contact">Contacto</h3>
+        <p><a href="tel:+34651634586">651 63 45 86</a></p>
+        <p><a data-wa href="https://wa.me/34651634586" target="_blank" rel="noopener">WhatsApp</a></p>
+      </div>
+      <div>
+        <h3 data-i18n="foot.where">Dónde estamos</h3>
+        <p>Carrer de Felícia Fuster i Viladecans, 67<br>08003 Barcelona</p>
+        <p class="small" data-i18n="info.hours.d">Todos los días, de 5:30 a 20:00</p>
+        <p><a href="https://www.google.com/maps/dir/?api=1&destination=Paddle+Barn+Barcelona" target="_blank" rel="noopener" data-i18n="foot.directions">Cómo llegar →</a></p>
+      </div>
+    </div>
+    <div class="container map">
+      <iframe title="Mapa Paddle Barn" src="https://www.google.com/maps?q=Paddle+Barn,+Carrer+de+Fel%C3%ADcia+Fuster+i+Viladecans+67,+Barcelona&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <p class="copy">© <span id="year"></span> Paddle Barn · Barceloneta</p>
+  </footer>
+
+  <a class="wa-float" data-wa href="https://wa.me/34651634586" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3Z"/></svg>
+  </a>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

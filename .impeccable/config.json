@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-20T11:39:07.755Z",
+        "reason": "Claude: secciones a sangre completa; el texto va dentro de .container con margen de 16px"
+      },
+      {
+        "rule": "wide-tracking",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-20T11:39:14.809Z",
+        "reason": "Claude: tracking solo en títulos/enlaces Bebas Neue en mayúsculas, no en texto corrido"
+      }
+    ]
+  }
+}
